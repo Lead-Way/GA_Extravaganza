@@ -12,7 +12,7 @@ p {
 }
 
 header {
-  border-top: 5px solid #222222;
+  border-top: 5px solid black;
   padding: 0 100px;
 }
 
@@ -27,12 +27,12 @@ article img {
 }
 
 th {
-  background: #222;
+  background: black;
   color: white;
   padding: 10px;
 }
 
 td {
-  background: #eee;
+  background: rgb(153, 152, 152);
   padding: 10px;
 }
