@@ -4,11 +4,12 @@
 }
 
 .exerciseMainFeatures {
-
-
+    display: flex; 
+gap:10px;
 }
 
 .exerciseMainFeatures .exerciseMarketingFeature {
+width:50%;
 
 
 }
@@ -18,11 +19,13 @@
 }
 
 .exerciseAdditionalFeatures {
+display: flex; 
+gap:10px;
 
 }
 
 .exerciseAdditionalFeatures .exerciseMarketingFeature {
-
+    width:33.3%;
 
 }
 
