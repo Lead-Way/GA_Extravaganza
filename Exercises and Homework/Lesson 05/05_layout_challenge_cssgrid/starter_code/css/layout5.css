@@ -4,8 +4,10 @@
 }
 
 .exerciseHeader {
-
-
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .exerciseHeaderLogo {
@@ -19,7 +21,12 @@
 }
 
 .exerciseHeaderNav ul {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    gap:10px;
+    list-style-type: none;
 }
 
 .exerciseHeaderNav ul li {
@@ -31,11 +38,13 @@
 /* Main */
 
 .exerciseMain {
-
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    gap:10px;
+    margin-top:10px;
 }
 
 .exerciseMainLeftNav {
-
 
 }
 
@@ -44,15 +53,22 @@
 
 }
 
-.exerciseMainContent > * {
+.exerciseMainContent {
     margin: 0;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:10px;
+    margin-right:10px;
+
 }
 
 .exerciseMainContentBanner {
-
+    grid-column:span 4;
 }
 
 .exerciseMainContentSubBanner {
+   
+    grid-column:span 3;
 
 }
 

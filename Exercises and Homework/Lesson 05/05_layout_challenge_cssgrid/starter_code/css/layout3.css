@@ -3,8 +3,17 @@
     margin: 0 10px 10px 10px;
 }
 
-.exerciseMainFeatures {
+.exerciseMainFeatures{
+display:grid;
+grid-template-columns: 1fr 1fr;
+gap:10px;
+margin-bottom: 10px;
+}
 
+.exerciseAdditionalFeatures {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
 
 }
 
