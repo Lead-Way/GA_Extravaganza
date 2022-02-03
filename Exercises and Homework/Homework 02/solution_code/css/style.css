@@ -33,7 +33,7 @@ p {
 /* ############################## */
 /* ########### Header ########### */
 /* ############################## */
-.site_header {
+.site-header {
   background-color: #000;
   border-bottom: 5px solid #f2ff00;
   padding: 10px 30px;
@@ -42,7 +42,7 @@ p {
   justify-content: space-between;
 }
 
-.site_header h1 {
+.siteheader h1 {
   font-size: 32px;
 /*   padding: 15px 05px 0; */
   text-transform: capitalize;
