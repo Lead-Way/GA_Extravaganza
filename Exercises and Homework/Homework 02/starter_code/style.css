@@ -1,17 +1,13 @@
-/* ################################################## */
-/* ########### Global classes / overrides ########### */
-/* ################################################## */
+
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
-p {
-  font-size: 18px;
-  line-height: 1.5;
-  padding: 15px 0;
+.body {
+margin:0;
 }
 
-/* Fonts, classes are so I can reuse the styles on a variety of elements */
+
 .merriweather { font-family: 'Merriweather', serif; }
       .oswald { font-family: 'Oswald', sans-serif; }
         .lato { font-family: 'Lato', sans-serif; }
@@ -22,7 +18,8 @@ p {
   border-bottom: 5px solid #f2ff00;
   justify-content: space-between;
   margin:0;
-  padding:10px 30px;
+  padding:16px 30px;
+  align-items: center;
 } 
 .main-header h1{
   font-size: 32px;
@@ -37,7 +34,7 @@ p {
   justify-content: flex-end;
   font-size: 20px;
   font-family: 'Lato', sans-serif;
-  gap: 10px;
+  gap: 15px;
   margin:0;
   padding:0;
 }
@@ -64,6 +61,8 @@ p {
 .sub-nav p {
   font-size: 28px;
   margin: 0;
+  line-height: 1.5;
+  padding: 15px 0;
 }
 
 .strikeout {
@@ -81,20 +80,27 @@ p {
   justify-content: flex-end;
   align-items: center;
   font-family: 'Lato', sans-serif;
-  min-height: 410px;
+  min-height: 580px;
 }
 
 .hero h2 {
   font-weight: bold;
 }
+
 .box {
   background-color: rgba(255,255,255,0.9);
   margin: 25px 25px 25px 0;
   padding: 25px;
   width: 380px;
-  height: 230px;
+  height: 230px;    
   padding: 4%;
   box-shadow: 0 0 5px rgba(0,0,0,.75);
+}
+
+.box p {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 15px 0;
 }
 
 .big-cta {
@@ -104,12 +110,85 @@ p {
   color: #000;
   display: block;
   font-size: 24px;
-  padding: 10px 30px;
+  padding: 6px 30px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
 }
+
+.sub-hero {
+display:flex; 
+justify-content: center;  
+}
+
+.sub-hero-block-1{
+  border-right: 1px solid lightgray;
+  display: flex;
+  margin: 8px 0;
+  padding: 2%; 
+  display:flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sub-hero-block-2 {
+  border-right: 1px solid lightgray;
+  display: flex;
+  margin: 8px 0;
+  padding: 2%; 
+  display:flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
+  }
+/* Oliver: How can I make 3 blcoks all visually consistent? currently, block 3 CTA is a bit off the cebter*/
+.sub-hero-block-3 {
+  Display: flex;
+  margin: 8px 0;
+  padding: 2%; 
+  display:flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.block-cta {
+  border-radius: 5px;
+  color: #000;
+  display: block;
+  font-size: 24px;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Oswald', 'sans-serif';
+  background-color: #adadad ;
+  border-bottom: #878787 2px solid;
+  margin-top: 10px;
+}
+
+.sub-hero h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+  margin:0;
+}
+
+.sub-hero p{
+  font-size: 18px;
+    padding: 10px 0;
+  font-family: 'Lato', 'sans-serif';
+}
+
+.site-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 25px;
+  font-family: 'Lato', sans-serif;
+}
+
+
 
 /* Colors */
 /* Dark yellow: #f2ff00 */
