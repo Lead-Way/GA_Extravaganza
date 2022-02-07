@@ -1,3 +1,59 @@
+
+
+
+.top-nav {
+background-color: #32b64c;
+height: 40px;
+}
+
+.top-nav-logo {
+display: grid;
+color:white;
+grid-template-rows: 40px;
+grid-template-columns: 50px 1000px;
+}
+
+.top-nav-items {
+display: grid;
+grid-template-rows: 40px;   
+grid-template-columns: 50px 40px 40px 40px 40px 120px 50px 50px 50px;
+color:white;
+list-style-type:none;   
+margin: 1px;
+}
+
+.sub-nav{
+height:60px;
+background-color: white;
+display: grid;
+grid-template-rows: 60px 15px;
+grid-template-columns: 290px 920px;
+}
+
+.sub-nav h1{
+font-size:14px;
+padding-top: 20px;
+padding-left: 20px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sub-nav p {
+font-size:14px;
+padding-top: 17.5px;
+padding-right:15px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.trulia-grid {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 15px;
+background-color: #e3e4e6;
+padding: 15px;
+}
+
+
+
 ### Colors
 Green: #20c063 / RGBA(32,192,99,1)
 Gray: #e8e9ea  / RGBA (232,233,234,1)
