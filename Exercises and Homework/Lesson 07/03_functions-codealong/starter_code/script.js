@@ -4,6 +4,13 @@
 
 // Create a function called `squared` that takes one argument
 // The function will return the argument times itself (the square of the number)
+function squared (victim) {
+
+    if (typeof victim != "numbers")
+    let output = victim * victim;
+return output;   
+}
+
 
 console.log(squared(2));
 console.log(squared(5));
@@ -15,7 +22,18 @@ console.log(squared(-3));
 
 // Create a function called `stringLength` that returns the length of a string (how many characters?)
 // So: stringLength("hello") would return 5
+funtion stringLength (victim){
 
+    //create a variable to hold string 
+    let thelength = 0;
+
+    //Get the lenth of the string
+    thelength = victim.length;
+
+    //return the value
+    return thelength;
+
+}
 console.log(stringLength("testing"))
 console.log(stringLength("This is a longer string."))
 
