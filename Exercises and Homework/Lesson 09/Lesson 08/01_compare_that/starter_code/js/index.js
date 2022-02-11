@@ -6,11 +6,6 @@
      let b = Number(document.querySelector('#b').value);
  
      // Add comparison logic
-
-     if (a > b) {Comparions = ">";} 
-     else if (a == b) {comparison = "=";}
-     else if (a < b) {comparison = "<";}
-     else {comparison = "you dump ass";}
  
      document.querySelector('#comparison').innerText = comparison;
    };
