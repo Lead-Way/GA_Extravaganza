@@ -9,7 +9,7 @@ console.log(ballEl)
 
 //define how the click is going to funtion
 ballEl.addEventListener("click", function() {
-    // define click will increase scores by 1
+    // define click will increase scores by 10
     score += 10;
     // define what condition should declare a winner. If the scores are over 100 then you decleare the winner
     if (score < 100) {
