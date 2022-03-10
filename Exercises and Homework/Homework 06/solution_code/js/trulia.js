@@ -3,7 +3,6 @@
 let truliaCards = document.getElementsByClassName("trulia-grid-item");
 
 
-
 document.addEventListener('DOMContentLoaded', function(event) {
 
   document.querySelector(".trulia-nav-toggle").addEventListener('click',function(e){
