@@ -17,8 +17,6 @@ Near-Black: 0F0D05
  */
 
 
-
-
 /* Two Column Layout for Posts */
 
 .pbeLayoutColumn {
@@ -40,16 +38,12 @@ Near-Black: 0F0D05
 
 @media (max-width:1190px) {
     .pbeLayoutColumn {
-        padding-left: 2rem;
-        padding-right: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     }
 }
 
-
-
 /* Sidebar Gallery Articles */
-
-
     /* Footer */
 
 .pbeFooter {

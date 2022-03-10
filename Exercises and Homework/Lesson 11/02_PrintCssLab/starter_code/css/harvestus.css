@@ -187,11 +187,11 @@ body {
 
 
 /* Create a media query to target print only */
-
+@media print {
     /* Hide Navigation */
-
-
-
+    .pcl_topnav {
+    display:none;    
+    }
 
     /* Hide Upsells */
 
@@ -201,7 +201,6 @@ body {
 
     /* Add borders to the table */
 
-
-
+}
 
 

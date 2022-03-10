@@ -160,6 +160,21 @@ a {
   display:none;
 }
 
+  
+  
+
+
+
+
+/**
+ * CSS CIRCLE - rough how to
+ *
+ * Circles can be tough, but you can be tougher...
+ * What we're doing here is converting the span in the markup into an inline-block
+ * That gives us the ability to give the element height and width
+ * Some padding and margin tweaks give us a box we can round off border-radius
+ * Notice border-radius is the same as the height/width of the inside of the box model
+
 
 
 /**
@@ -225,10 +240,6 @@ a {
   flex-direction: column;
   height: 260px;
 }
-
-
-
-
 
 .new-box {
   display: flex;
@@ -658,5 +669,84 @@ a {
   h2,
   h3 {
     page-break-after: avoid;
+  }
+}
+/* responsive designs */
+@media screen and (min-width:1600px) {
+  .trulia-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width:1200px) and (max-width:1599px) {
+  .trulia-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .trulia-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:1024px){
+  .trulia-nav {
+    height: auto;
+    display: block;
+  }
+  
+  .trulia-nav-toggle {
+    display:block;
+    color:white;
+    font-weight:bold;
+    font-size: 2rem;
+    margin-right:2rem;
+  }
+  
+  .trulia-nav ul li {
+    display:inline-block;
+    margin:0;
+  }
+  
+
+  .trulia-nav-logo {
+    height: 25px;
+    width: 78px;
+    padding-left:0;
+  }
+  
+  .trulia-nav-left,
+  .trulia-nav-right {
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  .trulia-nav-left ul,
+  .trulia-nav-right ul {
+    width:100%;
+    display: block;
+    margin:0;
+  }
+
+  .trulia-nav-left ul li,
+  .trulia-nav-right ul li {
+    display: block;
+    }
+  
+  .trulia-nav-item,
+  .trulia-nav-item:visited {
+    display:block;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    margin-left: 1rem;
+  }
+
+  .trulia-nav-mobilehide {
+    height:0;
+    overflow:hidden;
+    width:0;
   }
 }

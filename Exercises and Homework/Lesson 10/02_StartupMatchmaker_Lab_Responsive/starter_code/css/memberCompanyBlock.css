@@ -32,6 +32,19 @@
     overflow: hidden;
 
 }
+@media screen and (max-width: 768px){
+    .memberCompanyLogoHaus {
+        flex-basis:100%;
+        width:100%;
+        display:flex;
+        justify-items:center;
+        padding-bottom:1rem;
+    }
+    .memberCompanyLogoHous > img {
+        max-width:35%;
+    }
+}
+
 
 .memberCompanyLogoHaus > img {
     max-width: 90%;
@@ -43,6 +56,16 @@
     flex-basis:35%;
     width: 35%;
     overflow: hidden;
+}
+
+@media screen and (max-width:768px){
+    .memberCompanySkills,
+    .memberCompanyLocation{
+        flex-basis:50%;
+        width:50%;
+    }
+
+
 }
 
 .memberCompanyLocation {

@@ -89,10 +89,26 @@ a {
 
 
 
-// Create a media query that only applies when the screen is between 640px and 800px
+/* Create a media query that only applies when the screen is between 640px and 800px */
+@media screen and (min-width:800px) and (max-width:800px){
 
+}
+/* Create a media query that only applies when the screen is LESS than 640px */
+@media screen (max-width: 639px){
+.main-nav {
+width:100%;
+}
 
-// Create a media query that only applies when the screen is LESS than 640px
+.main-nav ul {
+flex-direction:column;
+}
+
+.nav-toggle {
+ display:block;
+}
+}
+
+.main-nav-mobilehide
 
 
 /* BODY LAYOUT */
