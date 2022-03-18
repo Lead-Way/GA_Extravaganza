@@ -9,10 +9,24 @@ font-weight: 500;
 font-size: 28px;
 }
 
+.row {
+padding-left: 20px;
+padding-right: 20px;
+}
+
 .emoji {
   font-weight: 200;
   font-size: 150px;
   padding:0;
+}
+
+.CTA {
+  position:static;
+text-align: right;
+padding: 5%;
+
+font-family: 'Abel';
+font-style: normal;
 }
 
 
@@ -33,8 +47,9 @@ letter-spacing: 0.1em;
 .site-footer {
   position:fixed;
   width: 100%;
-  height: 60px;
+  height: 50px;
   bottom:0;
+  margin-top: auto;
   font-family: 'Abel';
   font-style: normal;
   font-weight: 400;
