@@ -1,10 +1,31 @@
+.col{
+display:flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+font-family: 'Abel';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+}
 
-.radios{
+.emoji {
+  font-weight: 200;
+  font-size: 150px;
+  padding:0;
+}
 
 
-
-
-
+h1{
+text-align: center;
+padding-top: 10%;
+padding-bottom: 5%;
+font-family: 'Abel';
+font-style: normal;
+font-weight: 10;
+font-size: 64px;
+line-height: 82px;
+letter-spacing: 0.1em;
 }
 
 

@@ -11,18 +11,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Abel';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  color: black;
 
 }
 
 .hero-area h1 {
-background-color:rgba(246, 240, 102, 0.32);
-
-
+font-family: 'Abel';
+font-style: normal;
+font-weight: 550;
+font-size: 56px;
+line-height: 80px;
+text-align: center;
+letter-spacing: 0.1em;
+color:white;
 }
 
 
