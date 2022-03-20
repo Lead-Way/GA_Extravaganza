@@ -21,10 +21,9 @@ padding-right: 20px;
 }
 
 .CTA {
-  position:static;
-text-align: right;
-padding: 5%;
-
+display:flex;
+justify-content:right;
+padding: 2%;
 font-family: 'Abel';
 font-style: normal;
 }
