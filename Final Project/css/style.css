@@ -1,8 +1,29 @@
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: royalblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: royalblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 
 body {
   padding-bottom: 60px;
   }
-  
+
 .hero-area{
   background-image: url("../images/annie-spratt-3TPCsHZp0OY-unsplash.jpeg");
   text-align: center;

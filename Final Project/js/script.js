@@ -11,7 +11,7 @@ const apiKey = "i9u5FoDahfPMI2LFAipRD3KXJ45afk0f";
 async function giphySearch(e) {
   e.preventDefault();
   // get the user input from the form
-  const searchTerm = document.querySelector('input[name="search-term"]').value;
+  const era = document.querySelector('.form-check-input').value;
   // build the url address for the api with YOUR personal API key and the users search term
   const apiUrl = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${searchTerm}`;
   // make an API call using fetch() and capture the response in a variable
