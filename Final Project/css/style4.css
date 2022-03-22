@@ -1,0 +1,114 @@
+body {
+  padding-bottom: 60px;
+  }
+
+.card1 {
+  background-image: url("../images/singing.webp");
+  text-align: center;
+  width: 218px;
+  height: 313px;
+  left: 172px;
+  top: 328px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 1%;
+  border-radius: 10px;
+}
+
+.card2 {
+  background-image: url("../images/jaws.webp");
+  text-align: center;
+  width: 218px;
+  height: 313px;
+  left: 172px;
+  top: 328px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 1%;
+  border-radius: 10px;
+}
+
+.card3 {
+  background-image: url("../images/madmax.webp");
+  text-align: center;
+  width: 218px;
+  height: 313px;
+  left: 172px;
+  top: 328px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 1%;
+  border-radius: 10px;
+}
+
+.col{
+display:flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+font-family: 'Abel';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+}
+
+.row {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.emoji {
+  font-weight: 200;
+  font-size: 150px;
+  padding:0;
+}
+
+.CTA {
+  display:flex;
+  justify-content:space-between;
+  padding: 2%;
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+
+h1{
+text-align: center;
+padding-top: 6%;
+padding-bottom: 2%;
+font-family: 'Abel';
+font-style: normal;
+font-weight: 10;
+font-size: 64px;
+line-height: 82px;
+letter-spacing: 0.1em;
+}
+
+
+
+.site-footer {
+  position:fixed;
+  width: 100%;
+  height: 50px;
+  bottom:0;
+  margin-top: auto;
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  background: rgba(181, 181, 181, 0.5);
+  Display:flex;
+  justify-content: right;
+  gap:10px;
+  align-items: center;  
+  list-style: none;
+}
+
+.site-footer li{
+  padding-right:30px;
+}

@@ -1,7 +1,10 @@
+body {
+  padding-bottom: 60px;
+  }
 
 .slidecontainer{
-padding-left: 5%;
-padding-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .slider {
@@ -14,7 +17,6 @@ padding-right: 5%;
   opacity: 0.9;
   -webkit-transition: .2s;
   transition: opacity .2s;
-  
 }
 
 .slider::-webkit-slider-thumb {
@@ -29,8 +31,8 @@ padding-right: 5%;
 }
 
 .slider::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background: #04AA6D;
   cursor: pointer;
@@ -44,14 +46,18 @@ font-style: normal;
 justify-content:space-between;
 font-weight: 400;
 font-size: 26px;
-padding-top:5%;
-padding-bottom: 5%;
+padding-top:8%;
+padding-bottom: 8%;
+
 } 
 
 .slidedesc .li{
-padding:2%;
+padding:3%;
   gap:10px; 
 }
+
+
+
 
 .CTA {
 display:flex;
@@ -82,11 +88,11 @@ h1{
   width: 100%;
   height: 50px;
   bottom:0;
-  margin-top: auto;
+  margin-top: auto; 
   font-family: 'Abel';
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 16px;
   background: rgba(181, 181, 181, 0.5);
   Display:flex;
   justify-content: right;
