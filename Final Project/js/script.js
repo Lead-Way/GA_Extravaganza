@@ -2127,17 +2127,36 @@ let movies = [
   }
 ]
 
+const MovieGenres = ["Comedy", "Fantasy","Drama","Crime","Music","Animation","Comedy","Family","Biography","Drama","Action","Adventure","Film-Noir","Mystery","Thriller", "Western","Romance"];
+
 // Add event litener to trigger the event only when users hits submit 
-document.querySelector('#submitButton').addEventListener('click',function()
-// that should function should now below
+document.querySelector('#submitButton').addEventListener('click',function() // that should function should now as below
 
-// find which radio button is selected and add an event 
-{var getSelectedValue = document.querySelector('input[name="flexRadioDefault"]:checked');
+// find which radio button is selected 
+{
+  // var randomItem = myArray[Math.floor(Math.random()*myArray.length)];  
+let randomGenre = MovieGenres[Math.floor(Math.random() * MovieGenres.length)];
 
-//making sure I get the value right console.log(getSelectedValue.value);    
+// console.log(randomGenre)
+
+// getSelectedValue.id
+
+var getSelectedValue = document.querySelector('input[name="flexRadioDefault"]:checked')
+
+if (getSelectedValue.id = "flexRadioDefault3"){
+
+  getSelectedValue.value=randomGenre
+
+}
+
+// if getSelectedValue.id is flexRadioDefault3 then use RandomGenre in getSelectedValue.value
+
+// console.log(getSelectedValue.id)
+// Console.log(getSelectedValue.value)    
 
 // now, define the result as a filter to loop through the movies set and find all the movies that matches getSelectedValue.value
 const result = movies.filter(movie => movie.genres.includes(getSelectedValue.value));
+
 
 // making sure I get the result right console.log(result);    
 
@@ -2151,6 +2170,3 @@ document.querySelector(".poster").src=result[randomNumber].posterUrl
 }
 // funtion stops
 )
-
-
-
