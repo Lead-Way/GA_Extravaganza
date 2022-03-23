@@ -2139,17 +2139,16 @@ let randomGenre = MovieGenres[Math.floor(Math.random() * MovieGenres.length)];
 
 // console.log(randomGenre)
 
-// getSelectedValue.id
-
+// pick the value from the chosen radio button
 var getSelectedValue = document.querySelector('input[name="flexRadioDefault"]:checked')
 
+
+// if getSelectedValue.id is flexRadioDefault3 then use RandomGenre in getSelectedValue.value
 if (getSelectedValue.id = "flexRadioDefault3"){
 
   getSelectedValue.value=randomGenre
 
 }
-
-// if getSelectedValue.id is flexRadioDefault3 then use RandomGenre in getSelectedValue.value
 
 // console.log(getSelectedValue.id)
 // Console.log(getSelectedValue.value)    
