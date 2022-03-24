@@ -1,3 +1,14 @@
+.submitCTA {
+display:flex;
+justify-content: right;
+font-family: 'Abel';
+font-style: normal;
+padding: 5%;
+}
+
+p{
+  padding-top:8px; 
+}
 
 body {
 padding-bottom: 60px;
@@ -36,7 +47,7 @@ font-style: normal;
 
 h1{
 text-align: center;
-padding-top: 10%;
+padding-top: 2%;
 padding-bottom: 2%;
 font-family: 'Abel';
 font-style: normal;

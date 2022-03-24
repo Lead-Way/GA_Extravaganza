@@ -3,6 +3,11 @@ body {
 padding-bottom: 60px;
 }
 
+p{
+padding-top:8px;
+
+}
+
 .col{
 display:flex;
 flex-direction: column;
