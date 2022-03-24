@@ -1,13 +1,11 @@
 
 .centerDesc {
-
 margin-left: 100px;
-
 }
 
 body {
   padding-bottom: 60px;
-  }
+}
 
 .slidecontainer{
   padding-left: 5%;
@@ -53,8 +51,8 @@ font-style: normal;
 justify-content:space-between;
 font-weight: 400;
 font-size: 26px;
-padding-top:8%;
-padding-bottom: 8%;
+padding-top:5%;
+padding-bottom: 5%;
 
 } 
 
@@ -73,17 +71,35 @@ font-weight: 400;
 font-size: 22px;
 }
 
+.heroImage{
+margin-top: 5%;
+margin-bottom: 7%;
+padding-left: 5%;
+padding-right: 5%;  
+border-radius: 10px;
+
+
+}
 
 h1{
   text-align: center;
-  padding-top: 10%;
+  color:white;
+  padding-top: 5%;
   padding-bottom: 5%;
+  height: 200px;
+  width: auto;
   font-family: 'Abel';
   font-style: normal;
-  font-weight: 10;
-  font-size: 64px;
-  line-height: 82px;
+  font-weight: 50;
+  font-size: 54px;
+  line-height: auto;
   letter-spacing: 0.1em;
+  background-image: url("../images/savoring-time-1564196.jpeg");
+  background-repeat: repeat;
+  background-position: center;
+  border-radius: 10px;
+  background-size: cover;
+ 
   }
   
 
@@ -107,4 +123,35 @@ h1{
 
 .site-footer li{
   padding-right:30px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+h1{
+Font-size: 26px;
+padding-top:18%;
+}  
+.slidedesc {
+font-size: 16px;
+text-align: center;
+}
+.centerDesc {
+margin-left: 30px;
+}
+
+}
+
+@media (min-width: 480px) and (max-width:768px) {
+
+h1{
+Font-size: 32px;
+padding-top:12%;
+}  
+.slidedesc {
+font-size: 20px;
+} 
+
+.centerDesc {
+margin-left: 55px;
+}
 }

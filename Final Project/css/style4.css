@@ -11,8 +11,8 @@ margin-top: 20px;
 .card1 {
   background-image: url("../images/singing.webp");
   text-align: center;
-  width: 318px;
-  height: 463px;
+  width: 280px;
+  height: 400px;
   left: 172px;
   top: 328px;
   background-repeat: no-repeat;
@@ -25,8 +25,8 @@ margin-top: 20px;
 .card2 {
   background-image: url("../images/jaws.webp");
   text-align: center;
-  width: 318px;
-  height: 463px;
+  width: 280px;
+  height: 400px;
   left: 172px;
   top: 328px;
   background-repeat: no-repeat;
@@ -39,8 +39,8 @@ margin-top: 20px;
 .card3 {
   background-image: url("../images/madmax.webp");
   text-align: center;
-  width: 318px;
-  height: 463px;
+  width: 280px;
+  height: 400px;
   left: 172px;
   top: 328px;
   background-repeat: no-repeat;
@@ -86,7 +86,7 @@ padding-right: 20px;
 h1{
 text-align: center;
 padding-top: 1%;
-padding-bottom: 2%;
+padding-bottom: 1%;
 font-family: 'Abel';
 font-style: normal;
 font-weight: 10;
@@ -117,4 +117,37 @@ letter-spacing: 0.1em;
 
 .site-footer li{
   padding-right:30px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+
+h1{
+Font-size: 32px;
+}
+      
+
+.form-check-input {
+  margin-bottom:8%;  
+  }
+
+}
+  
+
+@media (min-width: 480px) and (max-width:768px) {
+  
+.CTA {
+padding-top: 10px;
+}
+
+
+h1{
+Font-size: 48px;
+}
+
+.form-check-input {
+margin-bottom:8%;  
+}
+
+
 }

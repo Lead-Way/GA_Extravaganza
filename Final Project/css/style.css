@@ -71,3 +71,17 @@ color:white;
 .site-footer li{
   padding-right:30px;
 }
+
+/* Responsive Design */
+
+@media (max-width: 480px) {
+.hero-area h1 {
+font-size: 38px;
+}
+}
+
+@media (min-width: 480px) and (max-width:768px) {
+  .hero-area h1 {
+  font-size: 48px;
+  }
+}
